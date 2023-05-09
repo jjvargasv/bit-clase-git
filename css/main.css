@@ -1,3 +1,7 @@
 body{
     background-color: pink;
 }
+
+.carousel-inner{
+    height: 70vhs;
+}
