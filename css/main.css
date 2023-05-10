@@ -1,7 +1,60 @@
-body{
-    background-color: pink;
+body {
+    background-color: orange;
+    color: white;
 }
 
-.carousel-inner{
-    height: 70vhs;
+.top-paragraph {
+    color: rgba(0, 0, 0, .65);
+}
+
+/** First Mobile */
+.bar-contact,
+.menu-language-currency {
+    display: none;
+    /** Oculta elementos*/
+}
+
+/** Big Devices */
+@media (min-width: 1200px) {
+
+    .bar-contact,
+    .menu-language-currency {
+        display: flex;
+        /** Muestra elementos*/
+    }
+}
+
+.orange-box {
+    background-color: #ba933e;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 0.3rem;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    height: 70vh;
+}
+
+.footer {
+    background-color: #1A1A1A;
+    padding: 4rem 0 6rem 0;
+}
+
+.menu-widget {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.title-widget {
+    font-size: 1rem;
+}
+
+.menu-link,
+.info-contact {
+    color: #999999;
+    text-decoration: none;
+    font-size: .8rem;
 }
